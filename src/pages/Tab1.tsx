@@ -2,9 +2,10 @@ import { IonContent, IonText, IonRow, IonCol, IonHeader, IonPage, IonTitle, IonT
 import React, { Component } from 'react';
 import './Tab1.css';
 import { Plugins } from '@capacitor/core';
+import { toast } from '../toast'
 
 const INITIAL_STATE = {
-};
+}
 
 class Tab1 extends Component {
   state: any = {};
@@ -34,6 +35,7 @@ class Tab1 extends Component {
       });
     }
   }
+
 
   render() {
     return (
@@ -66,6 +68,6 @@ class Tab1 extends Component {
       </IonPage>
     )
   }
-}
+}  
 export default Tab1;
 
