@@ -47,9 +47,16 @@ class Tab1 extends Component {
 	    </IonText>
             <IonButton>Returants</IonButton>
 	    <IonButton>Recomendations</IonButton>
+	     <IonRow>
+            <IonCol className="text-center">
+              <IonText className="title">
+                Welcome to foodRecs!
+              </IonText>
+            </IonCol>
+            </IonRow>
 	    <IonButton className="login-button" onClick={() => this.signIn()} expand		="full" fill="solid" color="primary">
             Login with Facebook
-          </IonButton>
+            </IonButton>
           </IonToolbar>
         </IonHeader>
 	<IonContent className="ion-padding">
